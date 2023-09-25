@@ -37,7 +37,7 @@ a {
   flex-direction: column;
 }
 
-.conteiner {
+.container {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
@@ -293,4 +293,25 @@ body {
 .video__content {
   margin: 0 auto;
   display: block;
+}
+
+.important {
+  padding-bottom: 150px;
+}
+
+.important__title {
+  margin-bottom: 20px;
+}
+
+.important__text {
+  max-width: 580px;
+  margin: 0 auto 50px;
+}
+.important__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.important__item-img {
+  margin-bottom: 20px;
 }
