@@ -273,3 +273,24 @@ body {
   position: absolute;
   left: 0;
 }
+
+.video {
+  padding-bottom: 150px;
+  margin: 0 auto;
+}
+
+.video__title {
+  margin-bottom: 20px;
+}
+
+.video__text {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.video__content {
+  margin: 0 auto;
+  display: block;
+}
